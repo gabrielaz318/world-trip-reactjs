@@ -1,0 +1,33 @@
+.swiper-pagination-bullet {
+  width: 16px !important;
+  height: 16px !important;
+  background: #999999 !important;
+  opacity: 1 !important;
+
+  @media (max-width: 767px) {
+    width: 8px !important;
+    height: 8px !important;
+  }
+
+  &.swiper-pagination-bullet-active {
+    background: #ffba08 !important;
+  }
+}
+
+.swiper-button-prev {
+  left: 2.65rem !important;
+  color: #ffba08 !important;
+
+  @media (max-width: 767px) {
+    left: 1.25rem !important;
+  }
+}
+
+.swiper-button-next {
+  right: 2.65rem !important;
+  color: #ffba08 !important;
+
+  @media (max-width: 767px) {
+    right: 1.25rem !important;
+  }
+}

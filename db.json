@@ -1,0 +1,857 @@
+{
+  "continents": [
+    {
+      "id": 1,
+      "name": "Europa",
+      "title": "O continente mais antigo",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
+      "image": "europe2.jpg",
+      "slug": "europa",
+      "countries": 50,
+      "languages": 234
+    },
+    {
+      "id": 2,
+      "name": "África",
+      "title": "A vida natural em seu estado puro",
+      "description": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra (atrás da Ásia) com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes. Tem se transformado na ultima década em uma continente cada vez mais católico.",
+      "image": "africa2.jpg",
+      "slug": "africa",
+      "countries": 54,
+      "languages": 2110
+    },
+    {
+      "id": 3,
+      "name": "América",
+      "title": "O novo mundo ocidental",
+      "description": "América é o continente localizado no hemisfério ocidental e que se estende, no sentido norte-sul, desde o oceano Ártico até o cabo Horn, ao longo de cerca de 15 mil quilômetros. O seu extremo oriental insular (não continental) encontra-se na Groenlândia, o Nordostrundingen, enquanto o ocidental localiza-se nas Aleutas.",
+      "image": "america2.jpg",
+      "slug": "america",
+      "countries": 35,
+      "languages": 993
+    },
+    {
+      "id": 4,
+      "name": "Ásia",
+      "title": "A terra do sol nascente",
+      "description": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial. A Ásia faz fronteira no lado ocidental com a África e com a Europa, e no lado oriental com o oceano Pacífico, a Oceania e, em menor proporção, com a América do Norte, pelo Estreito de Bering.",
+      "image": "asia2.jpg",
+      "slug": "asia",
+      "countries": 50,
+      "languages": 2322
+    },
+    {
+      "id": 5,
+      "name": "Oceania",
+      "title": "A terra das coisas gigantes",
+      "description": "Oceania ou Oceânia é uma região geográfica composta por vários grupos de ilhas do oceano Pacífico (Polinésia, Melanésia e Micronésia). O termo Oceania foi criado em 1831 pelo explorador francês Dumont d'Urville. O termo é usado hoje em vários idiomas para designar uma região geográfica e política que compreende o continente da Austrália e ilhas do Oceano Pacífico adjacentes.",
+      "image": "oceania2.jpg",
+      "slug": "oceania",
+      "countries": 16,
+      "languages": 1250
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "name": "Hong Kong",
+      "country": "China",
+      "countryCode": "hk",
+      "image": "https://www.infomoney.com.br/wp-content/uploads/2019/06/hong-kong-lojas.jpg?fit=900%2C612&quality=50&strip=all",
+      "continentId": 4
+    },
+    {
+      "id": 2,
+      "name": "Bangcoc",
+      "country": "Tailândia",
+      "countryCode": "th",
+      "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-bangkok-capa2019-04-820x430.jpg",
+      "continentId": 4
+    },
+
+    {
+      "id": 3,
+      "name": "Londres",
+      "country": "Reino Unido",
+      "countryCode": "gb",
+      "image": "https://www.globalactivestudy.com/wp-content/uploads/2018/05/london-848x548.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 4,
+      "name": "Macau",
+      "country": "China",
+      "countryCode": "mo",
+      "image": "https://ogimg.infoglobo.com.br/in/24229351-f17-0f6/FT1086A/xGettyImages-1003381280.jpg.pagespeed.ic.TlNv9nMrEx.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 5,
+      "name": "Singapura",
+      "country": "Singapura",
+      "countryCode": "sg",
+      "image": "https://exame.com/wp-content/uploads/2016/09/size_960_16_9_supertrees-singapura5.jpg?quality=70&strip=info",
+      "continentId": 4
+    },
+    {
+      "id": 6,
+      "name": "Paris",
+      "country": "França",
+      "countryCode": "fr",
+      "image": "https://viagemeturismo.abril.com.br/wp-content/uploads/2016/11/thinkstockphotos-4549879531.jpeg?quality=70&strip=info&w=680&h=453&crop=1",
+      "continentId": 1
+    },
+    {
+      "id": 7,
+      "name": "Dubai",
+      "country": "Emirados Árabes Unidos",
+      "countryCode": "ae",
+      "image": "https://www.capricetour.com.br/painel/fotos/5583438621.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 8,
+      "name": "Nova York",
+      "country": "Estados Unidos",
+      "countryCode": "us",
+      "image": "https://miriangasparin.com.br/wp-content/uploads/2015/07/Nova-Iorque.jpg",
+      "continentId": 3
+    },
+    {
+      "id": 9,
+      "name": "Kuala Lumpur",
+      "country": "Malásia",
+      "countryCode": "my",
+      "image": "https://cdn2.civitatis.com/malasia/kuala-lumpur/galeria/header/skyline-nocturno-kuala-lumpur.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 10,
+      "name": "Istambul",
+      "country": "Turquia",
+      "countryCode": "tr",
+      "image": "https://terrasantaviagens.com.br/wp-content/uploads/2018/06/1-35.png",
+      "continentId": 4
+    },
+    {
+      "id": 11,
+      "name": "Délhi",
+      "country": "Índia",
+      "countryCode": "in",
+      "image": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0a/f6/ee/7d.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 12,
+      "name": "Antália",
+      "country": "Turquia",
+      "countryCode": "tr",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/1a/ad/8e/58/antalya-6.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 13,
+      "name": "Shenzhen",
+      "country": "China",
+      "countryCode": "cn",
+      "image": "https://www.viajali.com.br/wp-content/uploads/2020/01/shenzhen-capa.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 14,
+      "name": "Mumbai",
+      "country": "Índia",
+      "countryCode": "in",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/4e/55/e6/chhatrapati-shivaji-terminus.jpg?w=700&h=500&s=1",
+      "continentId": 4
+    },
+    {
+      "id": 15,
+      "name": "Phuket",
+      "country": "Tailândia",
+      "countryCode": "th",
+      "image": "https://www.costacruzeiros.com/content/dam/costa/costa-magazine/articles-magazine/islands/phuket-island/phuket_m.jpg.image.694.390.low.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 16,
+      "name": "Roma",
+      "country": "Itália",
+      "countryCode": "it",
+      "image": "https://www.romapravoce.com/wp-content/uploads/2016/04/roma-em-mar%C3%A7o-696x522.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 17,
+      "name": "Tóquio",
+      "country": "Japão",
+      "countryCode": "jp",
+      "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-tokyo-capa2019-01-820x430.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 18,
+      "name": "Pattaya",
+      "country": "Tailândia",
+      "countryCode": "th",
+      "image": "https://www.brasileiraspelomundo.com/wp-content/uploads/2018/08/Captura-de-Tela-2018-08-17-%C3%A0s-11.37.26.png",
+      "continentId": 4
+    },
+    {
+      "id": 19,
+      "name": "Taipei",
+      "country": "Taiwan",
+      "countryCode": "tw",
+      "image": "https://www.viajali.com.br/wp-content/uploads/2020/01/taipei-0.png",
+      "continentId": 4
+    },
+    {
+      "id": 20,
+      "name": "Meca",
+      "country": "Arábia Saudita",
+      "countryCode": "sa",
+      "image": "https://imgsapp2.correiobraziliense.com.br/app/noticia_127983242361/2017/08/30/621978/20170830094622949246o.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 21,
+      "name": "Guangzhou",
+      "country": "China",
+      "countryCode": "cn",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/1c/df/0b/2b/exterior.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 22,
+      "name": "Praga",
+      "country": "República Checa",
+      "countryCode": "cz",
+      "image": "https://www.vounajanela.com/wp-content/uploads/2018/06/o-que-fazer-em-praga-17-1050x599.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 23,
+      "name": "Medina",
+      "country": "Arábia Saudita",
+      "countryCode": "sa",
+      "image": "https://ichef.bbci.co.uk/news/640/amz/worldservice/live/assets/images/2010/05/11/100511150402_mesqfundo386.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 24,
+      "name": "Seoul",
+      "country": "Coreia do Sul",
+      "countryCode": "kr",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/a7/58/17/exterior.jpg?w=900&h=-1&s=1",
+      "continentId": 4
+    },
+    {
+      "id": 25,
+      "name": "Amsterdã",
+      "country": "Holanda",
+      "countryCode": "nl",
+      "image": "https://cdn.getyourguide.com/img/location/5ffeb0af63a25.jpeg/92.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 26,
+      "name": "Agra",
+      "country": "Índia",
+      "countryCode": "in",
+      "image": "https://images.musement.com/cover/0061/92/thumb_6091386_cover_header.jpeg?w=1200&h=630&q=95&fit=crop",
+      "continentId": 4
+    },
+    {
+      "id": 27,
+      "name": "Miami",
+      "country": "Estados Unidos",
+      "countryCode": "us",
+      "image": "https://i0.wp.com/www.vitoriarealty.com/blog/wp-content/uploads/2018/08/Curiosidades-de-Miami-e1535398524135.jpg?resize=612%2C500&ssl=1",
+      "continentId": 3
+    },
+    {
+      "id": 28,
+      "name": "Osaka",
+      "country": "Japão",
+      "countryCode": "jp",
+      "image": "https://www.japaoemfoco.com/wp-content/uploads/2015/08/Dotonbori-Ponte-Ebisu-Osaka-commons.wikimedia.org_.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 29,
+      "name": "Los Angeles",
+      "country": "Estados Unidos",
+      "countryCode": "us",
+      "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/71/39/f1.jpg",
+      "continentId": 3
+    },
+    {
+      "id": 30,
+      "name": "Xangai",
+      "country": "China",
+      "countryCode": "cn",
+      "image": "https://www.frontliner.com.br/content/images/2019/08/missao-china-investsp-inaugura-escritorio-comercial-em-shanghai_skyline.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 31,
+      "name": "Ho Chi Minh",
+      "country": "Vietnã",
+      "countryCode": "vn",
+      "image": "https://www.tripsavvy.com/thmb/BHG9Xa_H59w8uNR51eldY4jlfP8=/4096x2730/filters:fill(auto,1)/ho-chi-minh-city-at-night-22c7df816ce4493eb0e86cf54fe03309.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 32,
+      "name": "Denpasar",
+      "country": "Indonésia",
+      "countryCode": "id",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Denpasar%2C_Bali.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 33,
+      "name": "Barcelona",
+      "country": "Espanha",
+      "countryCode": "es",
+      "image": "https://i0.wp.com/turismo.eurodicas.com.br/wp-content/uploads/2020/01/top-5-de-barcelona.jpg?resize=740,480",
+      "continentId": 1
+    },
+    {
+      "id": 34,
+      "name": "Las Vegas",
+      "country": "Estados Unidos",
+      "countryCode": "us",
+      "image": "https://viagemeturismo.abril.com.br/wp-content/uploads/2019/01/gettyimages-717166755.jpg?quality=70&strip=info&w=920",
+      "continentId": 3
+    },
+    {
+      "id": 35,
+      "name": "Milão",
+      "country": "Itália",
+      "countryCode": "it",
+      "image": "https://www.romapravoce.com/wp-content/uploads/2020/12/o-que-fazer-em-milao_3.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 36,
+      "name": "Chennai",
+      "country": "Índia",
+      "countryCode": "in",
+      "image": "https://d34ad2g4hirisc.cloudfront.net/volunteer_positions/photos/000/011/778/thumb/e0079216089f03035a0d23224d16bb87.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 37,
+      "name": "Viena",
+      "country": "Áustria",
+      "countryCode": "at",
+      "image": "https://mapadomundo.org/wp-content/uploads/2016/12/Viena-capa2_iStock.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 38,
+      "name": "Johor Bahru",
+      "country": "Malásia",
+      "countryCode": "my",
+      "image": "https://media.istockphoto.com/photos/johor-bahru-20192020-picture-id1189965849?b=1&k=20&m=1189965849&s=170667a&w=0&h=Qc6az5xMiD1A8hHkpXtvWACN7sDApDbxXSLTrIqBEgg=",
+      "continentId": 4
+    },
+    {
+      "id": 39,
+      "name": "Jaipur",
+      "country": "Índia",
+      "countryCode": "in",
+      "image": "http://www.qualviagem.com.br/wp-content/uploads/2019/09/iStock-903877840.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 40,
+      "name": "Cancún",
+      "country": "México",
+      "countryCode": "mx",
+      "image": "https://r4t2s9v3.stackpathcdn.com/wp-content/uploads/2018/01/cancun-o-que-fazer-3-640x480.jpg",
+      "continentId": 3
+    },
+    {
+      "id": 41,
+      "name": "Berlim",
+      "country": "Alemanha",
+      "countryCode": "ge",
+      "image": "https://www.vounajanela.com/wp-content/uploads/2018/05/o-que-fazer-em-Berlim-1050x599.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 42,
+      "name": "Cairo",
+      "country": "Egito",
+      "countryCode": "eg",
+      "image": "https://www.mercadoeeventos.com.br/wp-content/uploads/2019/05/Esfinge-de-Giz%C3%A9-no-Cairo..jpg",
+      "continentId": 2
+    },
+    {
+      "id": 43,
+      "name": "Atenas",
+      "country": "Grécia",
+      "countryCode": "gr",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/View_of_the_Acropolis_Athens_%28pixinn.net%29.jpg/700px-View_of_the_Acropolis_Athens_%28pixinn.net%29.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 44,
+      "name": "Orlando",
+      "country": "Estados Unidos",
+      "countryCode": "us",
+      "image": "https://content.r9cdn.net/rimg/dimg/08/c0/6640626c-city-9900-16ae503b7f3.jpg?width=1200&height=630&crop=true",
+      "continentId": 3
+    },
+    {
+      "id": 45,
+      "name": "Moscou",
+      "country": "Rússia",
+      "countryCode": "ru",
+      "image": "https://static.historiadomundo.com.br/conteudo/images/visao-cidade-moscou-com-destaque-para-catedral-sao-basilio-no-centro-imagem-5ade1fca8b42b.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 46,
+      "name": "Veneza",
+      "country": "Itália",
+      "countryCode": "it",
+      "image": "https://blogdaarquitetura.com/wp-content/uploads/2016/09/19.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 47,
+      "name": "Madri",
+      "country": "Espanha",
+      "countryCode": "es",
+      "image": "https://www.maxmilhas.com.br/blog/wp-content/uploads/2019/06/293795-7-dicas-sobre-madri-para-quem-vai-pela-primeira-vez-770x450.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 48,
+      "name": "Ha Long",
+      "country": "Vietnã",
+      "countryCode": "vn",
+      "image": "https://quantocustaviajar.com/blog/wp-content/uploads/2017/12/ha-long-bay.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 49,
+      "name": "Riad",
+      "country": "Arábia Saudida",
+      "countryCode": "sa",
+      "image": "https://anba.com.br/wp-content/uploads/2020/01/000_1NZ8RC-1024x620.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 50,
+      "name": "Dublin",
+      "country": "Irlanda",
+      "countryCode": "ie",
+      "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-dublin-capa2019-02-820x430.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 51,
+      "name": "Florença",
+      "country": "Itália",
+      "countryCode": "it",
+      "image": "https://viagemeturismo.abril.com.br/wp-content/uploads/2016/12/157733682.jpeg",
+      "continentId": 1
+    },
+    {
+      "id": 52,
+      "name": "Hanói",
+      "country": "Vietnã",
+      "countryCode": "vn",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/33/f7/12/caption.jpg?w=700&h=-1&s=1",
+      "continentId": 4
+    },
+    {
+      "id": 53,
+      "name": "Toronto",
+      "country": "Canadá",
+      "countryCode": "ca",
+      "image": "https://i1.wp.com/comoviaja.com.br/wp-content/uploads/Toronto-e-CN-Tower-de-noite-Foto-Ontario-Travel-Divulga%C3%A7%C3%A3o-1024x682.jpg?fit=1024%2C682&ssl=1",
+      "continentId": 1
+    },
+    {
+      "id": 54,
+      "name": "Joanesburgo",
+      "country": "África do Sul",
+      "countryCode": "za",
+      "image": "https://cdn.rhinoafrica.com/tmp/image-thumbnails/media/_en/destinations/root/africa/southern-africa/south-africa/gauteng/_img/image-thumb__38185__og-image/mandela-bridge-and-city-of-johannesburg-lights.jpeg",
+      "continentId": 2
+    },
+    {
+      "id": 55,
+      "name": "Sidnei",
+      "country": "Austrália",
+      "countryCode": "au",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Sydney_opera_house_and_skyline.jpg",
+      "continentId": 5
+    },
+    {
+      "id": 56,
+      "name": "Munique",
+      "country": "Alemanha",
+      "countryCode": "ge",
+      "image": "https://www.euandopelomundo.com/wp-content/uploads/2015/03/munique-imagem.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 57,
+      "name": "Jacarta",
+      "country": "Indonésia",
+      "countryCode": "id",
+      "image": "https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2019/05/jacarta-indonesia-ap-e1556884386530.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 58,
+      "name": "Pequim",
+      "country": "China",
+      "countryCode": "cn",
+      "image": "https://chinavistos.com.br/wp-content/uploads/2017/12/cidade-de-Pequim-1.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 59,
+      "name": "São Petersburgo",
+      "country": "Rússia",
+      "countryCode": "ru",
+      "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/imagem-panoramica-cidade-sao-petersburgo-destacando-catedral-sangue-derramado-com-rio-neva-ao-fundo-5a8ef90636c10.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 60,
+      "name": "Bruxelas",
+      "country": "Bélgica",
+      "countryCode": "be",
+      "image": "https://thenomadvisor.com/wp-content/uploads/2019/07/wheretostayinbrussels-780x520.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 61,
+      "name": "Jerusalém",
+      "country": "Israel",
+      "countryCode": "il",
+      "image": "https://assistentedeviagem.com.br/blog/wp-content/uploads/2021/04/jerusalem-cidade-1024x682.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 62,
+      "name": "Budapeste",
+      "country": "Hungria",
+      "countryCode": "hu",
+      "image": "https://www.vounajanela.com/wp-content/uploads/2018/05/o-que-fazer-em-budapeste-1-1050x599.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 63,
+      "name": "Lisboa",
+      "country": "Portugal",
+      "countryCode": "pt",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Lisbon_%2836831596786%29_%28cropped%29.jpg/1200px-Lisbon_%2836831596786%29_%28cropped%29.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 64,
+      "name": "Damã",
+      "country": "Arábia Saudita",
+      "countryCode": "sa",
+      "image": "https://blog.latampass.com/wp-content/uploads/2018/05/Dammam_Foto_trait2lumiere-iStockphoto.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 65,
+      "name": "Penang",
+      "country": "Malásia",
+      "countryCode": "my",
+      "image": "https://www.avontuura.com/wp-content/uploads/2020/08/unnamed.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 66,
+      "name": "Iráklio",
+      "country": "Grécia",
+      "countryCode": "gr",
+      "image": "https://i.pinimg.com/originals/28/b0/23/28b02316901cff2dd164f2bb2e66c0fe.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 67,
+      "name": "Quioto",
+      "country": "Japão",
+      "countryCode": "jp",
+      "image": "https://turistaprofissional.com/wp-content/uploads/2019/01/templo-torii-quioto-japao.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 68,
+      "name": "Zhuhai",
+      "country": "China",
+      "countryCode": "cn",
+      "image": "https://news.cgtn.com/news/2020-07-08/Travelogue-China-Bucket-List-Zhuhai-RXrBIWo37y/img/378a1de0196e40caac719b4047ecd52e/378a1de0196e40caac719b4047ecd52e.jpeg",
+      "continentId": 4
+    },
+    {
+      "id": 69,
+      "name": "Vancouver",
+      "country": "Canadá",
+      "countryCode": "ca",
+      "image": "https://mundoviajar.com.br/wp-content/uploads/2018/11/Vancouver4.jpg",
+      "continentId": 3
+    },
+    {
+      "id": 70,
+      "name": "Chiang Mai",
+      "country": "Tailândia",
+      "countryCode": "th",
+      "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2017/04/o-que-fazer-chiang-mai-capa2019-01-820x431.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 71,
+      "name": "Copenhage",
+      "country": "Dinamarca",
+      "countryCode": "dk",
+      "image": "https://www.flytap.com/-/media/Flytap/new-tap-pages/destinations/europe/denmark/copenhagen/destinations-copenhagen-banner-mobile-1024x553.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 72,
+      "name": "São Francisco",
+      "country": "Estados Unidos",
+      "countryCode": "us",
+      "image": "https://www.msccruzeiros.com.br/-/media/global-contents/destinations/ports/usa/san-francisco/cruise-to-san-francisco-usa.jpg?bc=transparent&as=1&dmc=0&iar=0&mh=537&mw=806&sc=0&thn=0&udi=0&hash=EC455FDCBDAD77463BE33974DDDA549D",
+      "continentId": 3
+    },
+    {
+      "id": 73,
+      "name": "Melbourne",
+      "country": "Austrália",
+      "countryCode": "au",
+      "image": "https://lh4.googleusercontent.com/AyV1x1MprsklUqYOIVTEeMKsQVmFQuC27YSAA5GpAB1n95WfbggNKglIGKY7C9Hc-bfZ6CH_1VgFRjJnF5yMKuzPGWWnGbP0WNMbCjdabYP3avurEtd6Yvo2kpBkZeIssfYbfjSz",
+      "continentId": 5
+    },
+    {
+      "id": 74,
+      "name": "Cracóvia",
+      "country": "Polônia",
+      "countryCode": "pl",
+      "image": "http://s2.glbimg.com/eV0SVIM68Z3xWChz_64cfbJcA2U=/620x350/e.glbimg.com/og/ed/f/original/2015/07/08/13623035505_3dd1cc33e4_z.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 75,
+      "name": "Marraquexe",
+      "country": "Marrocos",
+      "countryCode": "ma",
+      "image": "https://lh3.googleusercontent.com/proxy/dsewIhgwqFk67aWG-y9FZoQeGFgn3oY92_AthflT3ZFOX8NkAhDzmOgll0ypmAhyHJKHuVm0xed75-oQs97NI-2fWpPZJNSE9PBM4VfMbp6e0TNuYSBU3TZ0XVlqIz7qsVrEEYmnM0bVWLEUyb7hxCKVsPDWB7MVAyr6cpHkY5sLkdop1JJhM0eJ23LmffDmESWK7D8S",
+      "continentId": 2
+    },
+    {
+      "id": 76,
+      "name": "Calcutá",
+      "country": "Índia",
+      "countryCode": "in",
+      "image": "https://images.memphistours.com/large/613184673_KolKata%201.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 77,
+      "name": "Cebu",
+      "country": "Filipinas",
+      "countryCode": "ph",
+      "image": "https://cdn.getyourguide.com/img/location/54b55800a704a.jpeg/92.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 78,
+      "name": "Auckland",
+      "country": "Nova Zelândia",
+      "countryCode": "nz",
+      "image": "https://novazelandiabrasil.com.br/files/2017/08/discover-viaduct-harbour-auckland-view.jpg",
+      "continentId": 5
+    },
+    {
+      "id": 79,
+      "name": "Tel Aviv",
+      "country": "Israel",
+      "countryCode": "il",
+      "image": "https://www.flytap.com/-/media/Flytap/new-tap-pages/destinations/israel/tel-aviv/destinations-tel-aviv-banner-mobile-1024x553.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 80,
+      "name": "Guilin",
+      "country": "China",
+      "countryCode": "cn",
+      "image": "https://cdn.getyourguide.com/img/location/54463c23cc47a.jpeg/92.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 81,
+      "name": "Honolulu",
+      "country": "Estados Unidos",
+      "countryCode": "us",
+      "image": "https://www.comotirarovistoamericano.com.br/wp-content/uploads/2020/11/Onde-fica-Honolulu-min.png",
+      "continentId": 3
+    },
+    {
+      "id": 82,
+      "name": "Hurghada",
+      "country": "Egito",
+      "countryCode": "eg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fc/eb/hurghada.jpg?w=700&h=500&s=1",
+      "continentId": 2
+    },
+    {
+      "id": 83,
+      "name": "Varsóvia",
+      "country": "Polônia",
+      "countryCode": "pl",
+      "image": "https://gwtravel.com.br/wp-content/uploads/2019/04/Vars%C3%B3via-Cidade-Velha-Revitalizada-gw-travel.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 84,
+      "name": "Mugla",
+      "country": "Turquia",
+      "countryCode": "tr",
+      "image": "https://www.propertyturkey.com/files/mugla-province.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 85,
+      "name": "Beunos Aires",
+      "country": "Argentina",
+      "countryCode": "ar",
+      "image": "https://www.daninoce.com.br/wp-content/uploads/2018/01/o-que-voce-precisa-saber-antes-de-ir-a-buenos-aires-dani-noce-imagem-destaque-960x625.jpg",
+      "continentId": 3
+    },
+    {
+      "id": 86,
+      "name": "Chiba",
+      "country": "China",
+      "countryCode": "cn",
+      "image": "https://media.istockphoto.com/photos/aerial-view-of-chiba-city-picture-id583972066?k=20&m=583972066&s=612x612&w=0&h=NTWgx43oHjQkkSlmvxBx0HaONUkstwP0him8fRVVslg=",
+      "continentId": 4
+    },
+    {
+      "id": 87,
+      "name": "Frankfurt",
+      "country": "Alemanha",
+      "countryCode": "ge",
+      "image": "https://images.squarespace-cdn.com/content/v1/52c0b141e4b0b87925bacd01/1535165713285-DZBE3EP4GNLCSZ7OZV0K/Roteiro+Frankfurt+1+dia",
+      "continentId": 1
+    },
+    {
+      "id": 88,
+      "name": "Estocolmo",
+      "country": "SUécia",
+      "countryCode": "se",
+      "image": "https://viagemeturismo.abril.com.br/wp-content/uploads/2016/12/93365674.jpg?quality=70&strip=info&w=1024",
+      "continentId": 1
+    },
+    {
+      "id": 89,
+      "name": "Lima",
+      "country": "Peru",
+      "countryCode": "pe",
+      "image": "https://viagemeturismo.abril.com.br/wp-content/uploads/2016/12/93365674.jpg?quality=70&strip=info&w=1024",
+      "continentId": 3
+    },
+    {
+      "id": 90,
+      "name": "Da Nang",
+      "country": "Vietnã",
+      "countryCode": "vn",
+      "image": "https://media.timeout.com/images/105273585/image.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 91,
+      "name": "Batam",
+      "country": "Indonésia",
+      "countryCode": "id",
+      "image": "https://jacytan-melo8.webnode.com/_files/200012267-38f7339f11/Batam,%20Indon%C3%A9sia.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 92,
+      "name": "Nice",
+      "country": "França",
+      "countryCode": "fr",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f7/48/nice.jpg?w=700&h=500&s=1",
+      "continentId": 1
+    },
+    {
+      "id": 93,
+      "name": "Fukuoka",
+      "country": "Japão",
+      "countryCode": "jp",
+      "image": "https://www.onde-e-quando.net/site/images/illustration/fukuoka.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 94,
+      "name": "Abu Dhabi",
+      "country": "Emirados Árabes Unidos",
+      "countryCode": "ae",
+      "image": "https://anba.com.br/wp-content/uploads/2020/08/017_227874-1024x620.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 95,
+      "name": "Jeju",
+      "country": "Coreia do Sul",
+      "countryCode": "kr",
+      "image": "https://www.onde-e-quando.net/site/images/illustration/jeju-island.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 96,
+      "name": "Porto",
+      "country": "Portugal",
+      "countryCode": "pt",
+      "image": "https://moraremportugal.com/wp-content/uploads/2018/06/Porto-e1528561211879.jpeg",
+      "continentId": 1
+    },
+    {
+      "id": 97,
+      "name": "Rodes",
+      "country": "Grécia",
+      "countryCode": "gr",
+      "image": "https://v9v6u8a5.stackpathcdn.com/wp-content/uploads/2020/12/praia-rodes-grecia.jpg",
+      "continentId": 1
+    },
+    {
+      "id": 98,
+      "name": "Rio de Janeiro",
+      "country": "Brasil",
+      "countryCode": "br",
+      "image": "https://s2.glbimg.com/EjFgWZTAI2r2bdzZnZROgQ4V3BY=/0x0:2048x1365/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/6/k/Mc8FdjTAaGxaRXLTspeQ/3756139071-7503cdbe19-o.jpg",
+      "continentId": 3
+    },
+    {
+      "id": 99,
+      "name": "Krabi",
+      "country": "Tailândia",
+      "countryCode": "th",
+      "image": "https://emalgumlugardomundo.com.br/wp-content/uploads/2017/04/O-que-fazer-em-Krabi-Taila%CC%82ndia.jpg",
+      "continentId": 4
+    },
+    {
+      "id": 100,
+      "name": "Bangalore ",
+      "country": "Índia",
+      "countryCode": "in",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Bangalore_.jpg/1024px-Bangalore_.jpg",
+      "continentId": 4
+    }
+  ]
+}
